@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    /* border: 1px solid red; */
 }
 
 .nav-container{
@@ -71,6 +72,10 @@
     background-blend-mode: overlay;;
 color: white;
 padding:20px;
+display: flex;
+justify-content:center;
+align-items:center;
+margin: 0 auto;
 }
 .service-btn{
     color: gray;
@@ -103,3 +108,28 @@ padding:20px;
 .more-details{
     padding: 20px;
 }
+.service-up{
+    display: flex;
+}
+.service{
+    padding: 10px;
+    background-color:white;
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+    height: 200px;
+    text-align:center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+.service-logo{
+    width: 50%;
+    padding-bottom: 10px;
+}
+.service-down{
+    display: flex;
+}
+.service-left-container{
+    width: 50%;
+}
+
